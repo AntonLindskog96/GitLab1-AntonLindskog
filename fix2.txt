@@ -56,4 +56,56 @@ ls
 
 15. notepad fix2.txt
 
+16.git remote add origin https://github.com/AntonLindskog96/GitLab1_Anton2.git
+git branch -M main
+git push -u origin main
+git add fix2.txt
+git commit -m "add commands, push to github"
+git push
+
+
+17. touch .gitignore
+notepad .gitignore
+git add .gitignore
+git commit -m "added gitignore commands"
+git push
+
+18. git tag -a v1.0 -m "Version 1.0"
+
+19.20.
+git rebase -i HEAD~3
+pick a12a089 add fix2.txt
+squash 93c6ddb add commands, push to github
+pick 03b7214 add gitignore commands
+
+
+git swtich -c feature3
+nano fix2.txt
+git add fix2.txt
+git commit -m "added git commands 18-20"
+
+git swtich main
+git merge feature 3
+git push
+
+git swtich feature1
+git --set-upstream origin feature1
+git switch feature2
+git --set-upsteram origin feature2
+git puhs origin --tags
+
+git switch main
+git reset --hard HEAD~
+
+notepad fix2.txt
+git add fix2.txt
+git commit --amend -m "updated latest commit with commands"
+git swtich main
+git rebase origin/main
+git push
+
+
+
+
+
 
