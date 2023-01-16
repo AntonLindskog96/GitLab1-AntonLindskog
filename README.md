@@ -1,5 +1,5 @@
 # GitLab1-AntonLindskog
 
-duck
-mahmut
-cat
+Duck
+Mahmut
+Cat
