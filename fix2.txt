@@ -1,0 +1,59 @@
+Lab 1
+
+1.git init
+cd GitHubLab1AntonLindskog
+git branch main
+
+2. touch README.md
+lägger till duck, moose, cat
+git status
+git add README.md
+
+3.git commit -m "Initial commit"
+git log
+
+4.git branch feature1 + git checkout feature1 (Skapar och switchar)
+git switch -c feature1 (Skapar och switchar direkt)
+git branch
+
+5.Ändra i textfilen
+git add README.md
+git commit -m "Change moose to mouse"
+git commit --amend -m "New commit message" (ändrar senaste commit"
+
+6.git checkout main
+ Ändrar i README.md från moose -> mahmut
+git add README.md
+git commit -m "changed moose to mahmut"
+
+7. git merge feature1
+fixat till README.md filen efter merge.
+git add README.md
+git commit -m "Fixed file"
+
+8. git tag extinct
+git push extinct
+
+9. git reset --hard HEAD~
+
+10.git branch feature2
+11. Ändrar i README.md till stor bokstav
+git add README.md
+git commit -m "Changed to uppercase"
+
+12.git checkout feature2
+touch fix1.txt
+git add fix1.txt
+git commit -m "Added fix1.txt file"
+touch fix2.txt
+git add fix2.txt
+git commit -m "Added fix2.txt file"
+
+13. git switch main
+ls
+
+14. git cherry-pick  21ece8b
+
+15. notepad fix2.txt
+
+
